@@ -31,7 +31,6 @@ Six visual archetypes under test. Each is defined by body presentation, outfit m
 | 3 | **Beach Sunset DJ** | White micro bikini, open shirt | Beach party, golden hour | Free, warm, physical | 🟡 Early |
 | 4 | **Poolside Editorial** | Red micro bikini | Luxury pool, magazine lighting | Static, high-impact | 🟡 Early |
 | 5 | **Braided / Luxury** | Velvet, metallic | Luxury lounge, gold accents | Attitude, direct | 🔵 Planned |
-| 6 | **Anime-Kawaii (Control)** | Pink, school-skirt | Soft pastel | Cute, different segment | ⚪ Control |
 
 > **Current focus:** Archetypes 1, 2, 3 — highest retention hypothesis based on motion compatibility with dark hypnotic techno and bass-boosted tracks.
 
@@ -307,7 +306,6 @@ Same character, same prompt, three different AI video generators. Side-by-side c
 | 1 | Soft Curvy + Dark Glamour | Dark hypnotic techno | — | — | — | 🟢 Active |
 | 2 | Soft Curvy + Metallic | Hyper Car Bass Boosted | — | — | — | 🟢 Active |
 | 3 | Beach Sunset DJ | Warm tropical house | — | — | — | 🟡 Early |
-| — | Anime-Kawaii | Upbeat cute | — | — | — | ⚪ Control |
 
 > Results populate as experiments complete. Log template → [`/experiments/template-experiment.md`](experiments/template-experiment.md)
 
