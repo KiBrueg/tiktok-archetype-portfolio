@@ -50,6 +50,8 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 *12-angle reference sheet — black sequin dress, luxury club, purple/gold lighting*
 
+*Published: [Dark Glamour — TikTok](https://www.tiktok.com/@maxopk/video/7710267023078526230)*
+
 </div>
 
 <table>
@@ -159,6 +161,8 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 ![Archetype 3 — Contact Sheet](assets/archetype3-beach/contact-sheet.png)
 
 *12-angle reference sheet — white bikini + open shirt, golden hour, beach crowd*
+
+*Published: [Beach DJ — TikTok](https://www.tiktok.com/@maxopk/video/7670252581037395222)*
 
 </div>
 
@@ -303,11 +307,11 @@ Same character, same prompt, three different AI video generators. Side-by-side c
 
 *Living section — updated as experiments complete.*
 
-| Rank | Archetype | Music | Watch Time | Loop Rate | Profile Visits | Status |
-|:-----|:----------|:------|:-----------|:----------|:---------------|:-------|
-| 1 | Soft Curvy + Dark Glamour | Dark hypnotic techno | — | — | — | 🟢 Active |
-| 2 | Soft Curvy + Metallic | Hyper Car Bass Boosted | — | — | — | 🟢 Active |
-| 3 | Beach Sunset DJ | Warm tropical house | — | — | — | 🟡 Early |
+| Rank | Archetype | Music | Watch Time | Loop Rate | Profile Visits | TikTok | Status |
+|:-----|:----------|:------|:-----------|:----------|:---------------|:-------|:-------|
+| 1 | Soft Curvy + Dark Glamour | Dark hypnotic techno | — | — | — | [watch](https://www.tiktok.com/@maxopk/video/7710267023078526230) | 🟢 Active |
+| 2 | Soft Curvy + Metallic | Hyper Car Bass Boosted | — | — | — | [watch](https://www.tiktok.com/@maxopk/video/7702890759418039574) | 🟢 Active |
+| 3 | Beach Sunset DJ | Warm tropical house | — | — | — | [watch](https://www.tiktok.com/@maxopk/video/7670252581037395222) | 🟡 Early |
 
 > Results populate as experiments complete. Log template → [`/experiments/template-experiment.md`](experiments/template-experiment.md)
 
