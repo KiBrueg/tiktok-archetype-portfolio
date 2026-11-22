@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local data
+analytics/raw-data/
+*.csv
+*.xlsx
+
+# Large media (store externally)
+assets/videos/
+assets/full-renders/
