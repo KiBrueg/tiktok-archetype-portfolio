@@ -1,41 +1,268 @@
-# TikTok Archetype & Music Testing Framework
+<div align="center">
 
-**Systematic A/B testing of female visual archetypes + music combinations for short-form video performance.**
+# TikTok Archetype Testing Framework
 
-This repository documents a practical growth experiment: generating and testing different female visual types under different music tracks on TikTok to identify what drives the highest retention, engagement, and conversion (profile visits / donations / product interest).
+**Data-driven selection of visual archetype × music combinations for short-form video performance**
 
-The goal is not just content creation — it is **data-driven selection of winning combinations** for performance marketing, donation marketing, and product promotion through Shorts.
+[![Status](https://img.shields.io/badge/status-active_testing-brightgreen)](#results)
+[![Format](https://img.shields.io/badge/format-9%3A16_vertical-blue)](#production)
+[![Platform](https://img.shields.io/badge/platform-TikTok_%2F_Reels_%2F_Shorts-ff0050)](#)
 
----
-
-## Project Goal
-
-Find the highest-performing combinations of:
-
-- Visual archetype (body type, ethnicity cues, styling, outfit, setting)
-- Music mood & energy
-- Movement style (hypnotic go-go, body waves, hip isolations)
-- Caption language & framing
-
-…and turn the winning combinations into a repeatable system for:
-
-- Organic reach
-- Paid amplification
-- Donation-based monetization
-- Soft product placement
+</div>
 
 ---
 
-## Core Hypothesis
+## What This Is
 
-Different audience segments respond strongly to specific visual + audio pairs.  
-By systematically varying only a few controlled variables (archetype + music + micro-movement), we can isolate what actually moves the needle on:
+A systematic A/B testing framework for short-form video content. The core thesis: **different audience segments respond strongly to specific visual + audio pairs**. By isolating variables (archetype × music × motion style), we can measure what actually drives retention and conversion — not what looks good in preview.
 
-- Average watch time
-- % of viewers who watch to the end
-- Like / save / share rate
-- Profile clicks
-- Donation conversion
+This is not a content dump. It is an evolving experimental log.
+
+---
+
+## Archetype System
+
+Six visual archetypes under test. Each is defined by body presentation, outfit material, setting, lighting, and facial energy — all variables that affect watch-time independently of content quality.
+
+| # | Name | Outfit Material | Setting | Energy | Status |
+|:--|:-----|:----------------|:--------|:-------|:-------|
+| 1 | **Soft Curvy – Dark Glamour** | Black sequin, latex | Gangster club, BMW, cash | Hypnotic, controlled | 🟢 Active |
+| 2 | **Soft Curvy – Metallic Club** | Silver / purple / red metallic | Stage, DJ booth, colored lights | Performance, hypnotic | 🟢 Active |
+| 3 | **Beach Sunset DJ** | White micro bikini, open shirt | Beach party, golden hour | Free, warm, physical | 🟡 Early |
+| 4 | **Poolside Editorial** | Red micro bikini | Luxury pool, magazine lighting | Static, high-impact | 🟡 Early |
+| 5 | **Braided / Luxury** | Velvet, metallic | Luxury lounge, gold accents | Attitude, direct | 🔵 Planned |
+| 6 | **Anime-Kawaii (Control)** | Pink, school-skirt | Soft pastel | Cute, different segment | ⚪ Control |
+
+> **Current focus:** Archetypes 1, 2, 3 — highest retention hypothesis based on motion compatibility with dark hypnotic techno and bass-boosted tracks.
+
+---
+
+## Archetype Cards
+
+Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.md) for full definitions.
+
+### Archetype 1 — Soft Curvy, Dark Glamour
+
+> *Highest retention candidate. Luxury club setting with status props reinforces the "aspirational + hypnotic" loop.*
+
+<!-- Add reference image: assets/archetype1-reference.jpg -->
+
+<table>
+<tr>
+<td width="50%">
+
+**Visual Spec**
+- Body: Soft hourglass — large breasts, wide hips, soft midsection
+- Face: Calm / slightly arrogant, strong direct eye contact
+- Hair: Long dark wavy or straight
+- Expression sequence: brief corner smile → immediate poker face
+
+**Color Palette**
+
+| Role | Color | Hex |
+|:-----|:------|:----|
+| Dress | Black sequin | `#0a0a0a` |
+| Lighting | Purple neon | `#8b2fc9` |
+| Accent | Gold | `#c9a84c` |
+| Setting | Dark club | `#141414` |
+
+</td>
+<td width="50%">
+
+**Setting Props**
+- Stacks of cash on table
+- Open Dom Perignon bottles
+- Black caviar in crystal bowl
+- Black BMW in background
+- Neon purple / gold rim lighting
+
+**Music Pairs (highest performing)**
+- Dark hypnotic techno
+- Slow bass-heavy trap
+- Cinematic dark ambient
+
+</td>
+</tr>
+</table>
+
+---
+
+### Archetype 2 — Soft Curvy, Metallic Club
+
+<!-- Add reference image: assets/archetype2-reference.jpg -->
+
+<table>
+<tr>
+<td width="50%">
+
+**Visual Spec**
+- Same body type as Archetype 1
+- Outfit: Shiny metallic micro bikini / bodysuit
+- Variants: Silver · Purple · Red
+- Setting: Stage or DJ booth
+
+**Color Palette — Silver Variant**
+
+| Role | Color | Hex |
+|:-----|:------|:----|
+| Outfit | Silver metallic | `#c0c0c0` |
+| Lighting | Blue-white stage | `#4a9eff` |
+| Background | Dark stage | `#0d0d0d` |
+| Accent | Chrome reflection | `#e8e8e8` |
+
+</td>
+<td width="50%">
+
+**Color Palette — Purple Variant**
+
+| Role | Color | Hex |
+|:-----|:------|:----|
+| Outfit | Deep purple metallic | `#6a0dad` |
+| Lighting | Violet stage | `#9b30ff` |
+| Background | Dark stage | `#0d0d0d` |
+| Accent | Pink rim | `#ff69b4` |
+
+**Music Pairs**
+- Hyper Car Bass Boosted
+- Club techno with strong 4/4 kick
+- Purple-tinted electronic
+
+</td>
+</tr>
+</table>
+
+---
+
+### Archetype 3 — Beach Sunset DJ
+
+<!-- Add reference image: assets/archetype3-reference.jpg -->
+
+<table>
+<tr>
+<td width="50%">
+
+**Visual Spec**
+- Body: Soft athletic-curvy, defined waist
+- Outfit: White micro bikini + open white shirt, headphones, sunglasses
+- Setting: Beach party, DJ decks, golden hour
+- Energy: Freer and warmer than club archetypes
+
+**Color Palette**
+
+| Role | Color | Hex |
+|:-----|:------|:----|
+| Outfit | White | `#f5f5f0` |
+| Sky | Golden sunset | `#ff8c42` |
+| Accent | Warm coral | `#ff6b6b` |
+| Sand | Warm beige | `#d4a76a` |
+
+</td>
+<td width="50%">
+
+**Setting Props**
+- DJ decks / CDJs
+- Palm trees
+- Crowd in background
+- Warm sunset back-lighting
+
+**Music Pairs**
+- Tropical house
+- Melodic techno at sunset tempo
+- Deep house with vocal chops
+
+</td>
+</tr>
+</table>
+
+---
+
+## Production System
+
+### Image Generation
+
+All character images generated with strict consistency parameters to maintain archetype identity across frames.
+
+**Core parameters (all archetypes):**
+```
+photorealistic · 8k detail · cinematic lighting · 9:16 vertical
+soft hourglass · large full breasts · wide hips · [not overweight]
+calm/arrogant expression · strong direct eye contact
+[specific outfit] · [specific setting with props]
+```
+
+Full prompt collection → [`/prompts/image-prompts/collection.md`](prompts/image-prompts/collection.md)
+
+---
+
+### Video Animation
+
+**Locked camera protocol** (non-negotiable for all animations):
+
+```
+Locked static camera, completely fixed, no zoom, no push-in,
+no Ken Burns, no still-image enlargement, no camera movement.
+```
+
+The locked camera is the single most important technical parameter. Any camera movement breaks the hypnotic loop effect and reduces average watch time.
+
+**Motion spec:**
+- Smooth continuous go-go dance — hip rolls, isolations, full-body waves
+- 8–13 seconds optimized for seamless loop
+- Expression sequence: brief corner smile → calm arrogant poker face
+- Hands: on own body only (waist, hips) — never toward camera
+
+Full master prompt → [`/prompts/master-video-prompt.md`](prompts/master-video-prompt.md)
+
+---
+
+### Technical Standards
+
+| Parameter | Spec | Reason |
+|:----------|:-----|:-------|
+| Duration | 8–13 sec | Optimal for loop + TikTok retention algorithm |
+| Format | 9:16 vertical | Native mobile, no letterboxing |
+| Camera | Locked static | Hypnotic effect, no distraction |
+| Motion | Continuous fluid | No freezes = no drop-off point |
+| Expression | Calm arrogant | Higher profile-visit conversion vs. smiling |
+| Hands | On own body | Keeps eye contact unbroken |
+
+---
+
+## Testing Methodology
+
+See [`/docs/methodology.md`](docs/methodology.md) for full protocol.
+
+**Controlled variables (one changed per test):**
+
+```
+Archetype  ×  Music mood  ×  Music energy  ×  Caption language
+```
+
+**Primary metrics tracked:**
+
+| Metric | Target | Why |
+|:-------|:-------|:----|
+| Average watch time % | > 80% | Core TikTok ranking signal |
+| Loop rate | > 2× | Indicates hypnotic effect working |
+| Profile visits / 1K views | > 15 | Conversion intent signal |
+| Share rate | > 3% | Viral amplification |
+
+Full metrics spec → [`/docs/metrics.md`](docs/metrics.md)
+
+---
+
+## Results
+
+*Living section — updated as experiments complete.*
+
+| Rank | Archetype | Music | Watch Time | Loop Rate | Profile Visits | Status |
+|:-----|:----------|:------|:-----------|:----------|:---------------|:-------|
+| 1 | Soft Curvy + Dark Glamour | Dark hypnotic techno | — | — | — | 🟢 Active |
+| 2 | Soft Curvy + Metallic | Hyper Car Bass Boosted | — | — | — | 🟢 Active |
+| 3 | Beach Sunset DJ | Warm tropical house | — | — | — | 🟡 Early |
+| — | Anime-Kawaii | Upbeat cute | — | — | — | ⚪ Control |
+
+> Results populate as experiments complete. Log template → [`/experiments/template-experiment.md`](experiments/template-experiment.md)
 
 ---
 
@@ -43,70 +270,43 @@ By systematically varying only a few controlled variables (archetype + music + m
 
 ```
 tiktok-archetype-portfolio/
-├── README.md
-├── docs/
-│   ├── methodology.md
-│   ├── metrics.md
-│   └── results-template.md
+├── README.md                          ← system overview (this file)
 ├── archetypes/
-│   └── README.md               # Description of tested visual types
+│   └── README.md                      ← full archetype specs with reference images
 ├── prompts/
-│   ├── image-prompts/          # All image generation prompts
-│   ├── video-prompts/          # All video animation prompts
-│   └── master-video-prompt.md  # Best performing locked-camera prompt
+│   ├── master-video-prompt.md         ← locked camera animation base prompt
+│   ├── image-prompts/
+│   │   └── collection.md              ← all image generation prompts by archetype
+│   └── video-prompts/
+│       └── captions-examples.md       ← multilingual captions + hashtags
+├── docs/
+│   ├── methodology.md                 ← A/B testing protocol
+│   └── metrics.md                     ← KPI definitions and measurement approach
 ├── experiments/
-│   └── template-experiment.md
-├── analytics/
-│   └── dashboard-template.md
-└── assets/
-    └── (reference frames & examples)
+│   └── template-experiment.md         ← log template per test run
+├── analytics/                         ← results data (populated as tests run)
+└── assets/                            ← reference frames, archetype images, examples
 ```
 
 ---
 
-## Key Findings (Living Section)
+## Tools Stack
 
-*This section is updated as experiments progress.*
-
-| Rank | Archetype              | Music Mood              | Key Strength                     | Status      |
-|------|------------------------|-------------------------|----------------------------------|-------------|
-| 1    | Soft Curvy + Metallic  | Dark hypnotic techno    | Highest retention so far         | Testing     |
-| 2    | Soft Curvy + Latex     | Hyper Car Bass Boosted  | Strong profile clicks             | Testing     |
-| 3    | Beach Sunset DJ        | Warm tropical house     | Good share rate                  | Early       |
-| —    | Anime-kawaii           | Upbeat / cute           | Different audience segment       | Control     |
-
----
-
-## How to Use This Repository
-
-1. Choose an archetype from `/archetypes`
-2. Take the corresponding image prompt
-3. Generate the still
-4. Animate with the master video prompt (locked camera + fluid motion)
-5. Pair with a track from the music list
-6. Publish and log results in `/experiments`
-7. Update the ranking table above
+| Stage | Tool | Notes |
+|:------|:-----|:------|
+| Image generation | Midjourney · Leonardo AI | High-detail photorealistic |
+| Video animation | Kling AI · Pippit AI · Runway | Locked camera protocol |
+| Editing | CapCut · Adobe Premiere | Loop optimization |
+| Script & prompts | Claude AI | Structured prompt engineering |
+| Analytics | TikTok Creator Studio | Watch time, loop rate, profile visits |
 
 ---
 
-## Technical Standards Used
+<div align="center">
 
-- **Image generation**: High-detail photorealistic prompts focused on body proportions, lighting, and facial micro-expression
-- **Video**: Strict locked static camera, no Ken Burns, no zoom, continuous fluid go-go motion only
-- **Duration**: 8–13 seconds (optimal for loop + retention)
-- **Expression sequence**: Brief corner smile → calm arrogant poker face + direct eye contact
-- **Hands**: Only on own body (outlining curves), never reaching toward camera
+**Kirill Brüggemann**  
+[github.com/KiBrueg](https://github.com/KiBrueg) · [linkedin.com/in/kirill-bruggemann](https://linkedin.com/in/kirill-bruggemann)
 
----
+*All generated characters are AI-created adults. Project purpose: performance marketing research and portfolio demonstration.*
 
-## Disclaimer
-
-All characters are AI-generated adults.  
-This project is for marketing research, creative testing, and portfolio purposes.
-
----
-
-## Author
-
-Personal growth & performance marketing experiment.  
-Focused on turning visual + audio testing into a measurable acquisition channel.
+</div>
