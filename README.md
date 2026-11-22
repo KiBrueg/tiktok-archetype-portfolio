@@ -89,7 +89,19 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 ### Archetype 2 — Soft Curvy, Metallic Club
 
-<!-- Add reference image: assets/archetype2-reference.jpg -->
+<div align="center">
+
+![Archetype 2 — Contact Sheet](assets/archetype2-silver/contact-sheet.png)
+
+*12-angle reference sheet — consistent character identity across all shots*
+
+</div>
+
+<div align="center">
+
+![Archetype 2 — Hero Shot](assets/archetype2-silver/hero.jpg)
+
+</div>
 
 <table>
 <tr>
@@ -248,6 +260,29 @@ Archetype  ×  Music mood  ×  Music energy  ×  Caption language
 | Share rate | > 3% | Viral amplification |
 
 Full metrics spec → [`/docs/metrics.md`](docs/metrics.md)
+
+---
+
+## Video Tool Comparison — Archetype 2 Silver
+
+Same character, same prompt, three different AI video generators. Side-by-side comparison to evaluate output quality, motion fidelity, and loop consistency.
+
+**Base prompt used:** Master locked-camera go-go prompt (see [`/prompts/master-video-prompt.md`](prompts/master-video-prompt.md))  
+**Character:** Archetype 2 — Soft Curvy, Silver Metallic, Club setting  
+**Duration:** 8 seconds each
+
+| Tool | File size | Loop quality | Motion fidelity | Notes |
+|:-----|:----------|:-------------|:----------------|:------|
+| **Kling AI** | 6.5 MB | Testing | Testing | Standard generation |
+| **Pippit AI** | 3.6 MB | Testing | Testing | Standard generation |
+| **Wan Video (Omni)** | 0.8 MB | Testing | Testing | Smallest output |
+
+**Downloads:**
+- [kling.mp4](assets/video-comparison/kling.mp4) — Kling AI output
+- [pippit.mp4](assets/video-comparison/pippit.mp4) — Pippit AI output
+- [wan.mp4](assets/video-comparison/wan.mp4) — Wan Video Omni output
+
+> *GitHub does not auto-play video in README. Download files to compare, or view via raw links above.*
 
 ---
 
