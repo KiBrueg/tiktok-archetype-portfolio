@@ -106,6 +106,8 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 ![Archetype 2 — Hero Shot](assets/archetype2-silver/hero.jpg)
 
+*Published: [Silver/Metallic — TikTok](https://www.tiktok.com/@maxopk/video/7702890759418039574)*
+
 </div>
 
 <table>
