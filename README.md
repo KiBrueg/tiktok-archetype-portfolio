@@ -47,10 +47,9 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 <div align="center">
 
-| | |
-|:---:|:---:|
-| ![Dark Glamour — Hero](assets/archetype1-dark-glamour/hero.jpg) | ![Dark Glamour — Pose](assets/archetype1-dark-glamour/pose1.jpg) |
-| *Hero shot — BMW + cash + champagne setting* | *Full body — dark club lighting* |
+![Archetype 1 — Contact Sheet](assets/archetype1-dark-glamour/contact-sheet.png)
+
+*12-angle reference sheet — black sequin dress, luxury club, purple/gold lighting*
 
 </div>
 
@@ -156,14 +155,9 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 <div align="center">
 
-![Beach Sunset DJ — Hero](assets/archetype3-beach/hero.jpg)
+![Archetype 3 — Contact Sheet](assets/archetype3-beach/contact-sheet.png)
 
-*At the decks — golden hour, palm trees, crowd in background*
-
-| | | |
-|:---:|:---:|:---:|
-| ![Angle 1](assets/archetype3-beach/angle1.jpg) | ![Angle 2](assets/archetype3-beach/angle2.jpg) | ![Angle 3](assets/archetype3-beach/angle3.jpg) |
-| ![Angle 4](assets/archetype3-beach/angle4.jpg) | ![Angle 5](assets/archetype3-beach/angle5.jpg) | ![Angle 6](assets/archetype3-beach/angle6.jpg) |
+*12-angle reference sheet — white bikini + open shirt, golden hour, beach crowd*
 
 </div>
 
