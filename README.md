@@ -45,7 +45,14 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 > *Highest retention candidate. Luxury club setting with status props reinforces the "aspirational + hypnotic" loop.*
 
-<!-- Add reference image: assets/archetype1-reference.jpg -->
+<div align="center">
+
+| | |
+|:---:|:---:|
+| ![Dark Glamour — Hero](assets/archetype1-dark-glamour/hero.jpg) | ![Dark Glamour — Pose](assets/archetype1-dark-glamour/pose1.jpg) |
+| *Hero shot — BMW + cash + champagne setting* | *Full body — dark club lighting* |
+
+</div>
 
 <table>
 <tr>
@@ -147,7 +154,18 @@ Detailed specs for each active archetype. See [`/archetypes`](archetypes/README.
 
 ### Archetype 3 — Beach Sunset DJ
 
-<!-- Add reference image: assets/archetype3-reference.jpg -->
+<div align="center">
+
+![Beach Sunset DJ — Hero](assets/archetype3-beach/hero.jpg)
+
+*At the decks — golden hour, palm trees, crowd in background*
+
+| | | |
+|:---:|:---:|:---:|
+| ![Angle 1](assets/archetype3-beach/angle1.jpg) | ![Angle 2](assets/archetype3-beach/angle2.jpg) | ![Angle 3](assets/archetype3-beach/angle3.jpg) |
+| ![Angle 4](assets/archetype3-beach/angle4.jpg) | ![Angle 5](assets/archetype3-beach/angle5.jpg) | ![Angle 6](assets/archetype3-beach/angle6.jpg) |
+
+</div>
 
 <table>
 <tr>
